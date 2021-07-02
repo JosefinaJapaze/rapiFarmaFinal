@@ -1,0 +1,38 @@
+[
+    {
+        "productName":"Cepillo dental",
+        "productDescription":"Cepillo dental Bamboo, con mango natural y biodegradable.",
+        "productImage": "assets/img/Productos/toothbrush.png",
+        "productPrice": 170
+    },
+    {
+        "productName":"Pasta dental",
+        "productDescription":"Crema dental RapiFarma Natural Extracts. Su exclusiva formula ayuda a eliminar las impurezas y a protegerte los dientes.",
+        "productImage": "assets/img/Productos/tooth-paste.png",
+        "productPrice": 130
+    },
+    {
+        "productName":"Crema hidratante",
+        "productDescription":"El hidratante facial Toleriane Sensitive de RapiFarma es un hidratante único para todos los dias.",
+        "productImage": "assets/img/Productos/crema.png",
+        "productPrice": 210
+    },
+    {
+        "productName":"Pañal de bebé",
+        "productDescription":"1 Pañal RapiFarma classic super sec mantiene a tu bebe más sequito que otros pañales* por 1 noche entera.",
+        "productImage": "assets/img/Productos/panal-de-bebe.png",
+        "productPrice": 40
+    },
+    {
+        "productName":"Test de embarazo",
+        "productDescription":"Clásico test de embarazo con un 99% de exactitud.",
+        "productImage": "assets/img/Productos/prueba-de-embarazo.png",
+        "productPrice": 150
+    },
+    {
+        "productName":"Chupete de nene",
+        "productDescription":" Chupete curvado con tetina fisiológica celeste de 0 a 6 m",
+        "productImage": "assets/img/Productos/chupete.png",
+        "productPrice": 50
+    }
+]

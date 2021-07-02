@@ -1,0 +1,38 @@
+[
+  {
+    "placeName": "San Miguel de Tucumán",
+    "code": "4000",
+    "province": "Tucumán",
+    "price": 10
+  },
+  {
+    "placeName": "Yerba Buena",
+    "code": "4107",
+    "province": "Tucumán",
+    "price": 30
+  },
+  {
+    "placeName": "Concepción",
+    "code": "4108",
+    "province": "Tucumán",
+    "price": 50
+  },
+  {
+    "placeName": "Salta Capital",
+    "code": "4400",
+    "province": "Salta",
+    "price": 100
+  },
+  {
+    "placeName": "Termas de Rio Hondo",
+    "code": "4220",
+    "province": "Santiago del Estero",
+    "price": 80
+  },
+  {
+    "placeName": "Santiago del Estero Capital",
+    "code": "4200",
+    "province": "Santiago del Estero",
+    "price": 100
+  }
+]
