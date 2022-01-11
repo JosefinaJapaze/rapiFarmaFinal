@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bienvenid@ a RapiFarma</title>
+    <link href="css/styles.css" rel="stylesheet" />
+<!-- Google fonts-->
+<link
+href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+rel="stylesheet"
+type="text/css"
+/>
+<link
+href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+rel="stylesheet"
+type="text/css"
+/>
+
+</script>
+  </head>
+  <body class="loginb">
+    <nav
+    class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+    id="mainNav"
+  >
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">RapiFarma</a>  
+    </div>
+  </nav>
+  <section class="loginb">
+    <header class="masthead bg-light text-white text-center ">
+<div id="container">
+    <div class="col">
+      <p id="inboxNotification"></p>
+    <div id="tabs" class="row d-flex justify-content-center" >
+        <p id="lt" class="tabs" onclick="loginTabFun()">Iniciar sesión</p>
+        <p id="rt" class="tabs" onclick="regTabFun()">Registrarse</p>
+
+        <div id="clear"></div>
+    </div>
+
+    <div id="cont" class="row d-flex justify-content-center">
+        <div id="login" class="comm">
+            <h3>Iniciar sesión</h3>
+
+            <input id="se" type="email" placeholder="Email" required/>
+            <input id="sp" type="password" placeholder="Contraseña" required/>
+            <input type="submit" onclick="login()" value="Enviar"/>
+
+            <p onclick="forTabFun()">¿Olvidaste tu contraseña?</p>
+        </div>
+        <div id="register" class="comm">
+            <h3>Registrarse</h3>
+
+            <input id="re" type="email" placeholder="Email" required/>
+            <input id="rp" type="password" placeholder="Contraseña" required/>
+            <input id="rrp" type="password" placeholder="Repite la contraseña" required/>
+            <input type="submit" onclick="register()" value="Enviar"/>
+
+        </div >
+        <div id="forgot" class="comm">
+        <h3>Recuperar contraseña</h3>
+        <div>
+            <input id="fe" type="email" placeholder="Email" required/>
+            <input type="submit" onclick="forgot()" value="Enviar"/>
+            
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+</header>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/loginmiarchivo.js"></script>
+
+</body>
+</html>
